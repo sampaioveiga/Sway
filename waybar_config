@@ -61,7 +61,7 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{capacity}% {icon}",
+        "format": "{capacity}% {time} {icon}",
         "format-charging": "{capacity}% ",
         "format-plugged": "{capacity}% ",
         "format-alt": "{time} {icon}",
@@ -70,6 +70,6 @@
         "format-icons": ["", "", "", "", ""]
     },
     "clock": {
-        "format": "{:%a %d/%m/%y  %H:%M}"
+        "format": "{:%a %d-%m-%y  %H:%M}"
     }
 }
