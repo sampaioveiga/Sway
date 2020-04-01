@@ -1,5 +1,6 @@
 {
-    //"layer": "top",
+    "layer": "top",
+    "position": "bottom",
     "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["sway/window"],
     "modules-right": ["pulseaudio", "backlight", "network", "cpu", "memory", "disk#1", "disk#2", "battery", "clock"],
